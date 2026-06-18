@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ramaneshwari — Web Developer Portfolio</title>
+<meta name="description" content="Portfolio of Ramaneshwari Ramar — Web Developer specializing in HTML, CSS, Bootstrap, JavaScript, PHP and MySQL." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- gradient orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- NAV -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#top" class="logo">Ramaneshwari<span>.</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="mailto:ramaneshwari3528@gmail.com" class="btn hire-btn">Let's talk →</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="container">
+      <div class="status"><span class="dot"></span> Available for Junior Web Developer roles · 2026</div>
+      <h1 class="hero-title">Ramaneshwari<br /><em>Ramar.</em></h1>
+      <div class="hero-bottom">
+        <p class="hero-lead">
+          Web developer crafting responsive, user-friendly interfaces with HTML, CSS, Bootstrap, JavaScript and PHP/MySQL.
+          Recently interned at Migutham Technologies — shipping real WordPress sites and CRUD apps.
+        </p>
+        <div class="hero-meta">
+          <p class="label">Currently</p>
+          <p>B.Sc AI &amp; ML, Adithya College</p>
+          <p>Coimbatore, Tamil Nadu</p>
+          <a href="#work" class="link-arrow">See latest work ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Responsive Design ✦</span><span>PHP + MySQL ✦</span><span>WordPress ✦</span>
+      <span>Data Analytics ✦</span><span>Bootstrap ✦</span><span>JavaScript ✦</span><span>UI Polish ✦</span>
+      <span>Responsive Design ✦</span><span>PHP + MySQL ✦</span><span>WordPress ✦</span>
+      <span>Data Analytics ✦</span><span>Bootstrap ✦</span><span>JavaScript ✦</span><span>UI Polish ✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div>
+        <p class="kicker">01 — About</p>
+        <h2 class="title">A maker, learning <em>out loud.</em></h2>
+      </div>
+      <div class="about-text">
+        <p>
+          I'm a fast-learning developer who loves turning rough ideas into clean, working interfaces.
+          From boutique storefronts to role-based admin dashboards, I focus on the details users actually feel —
+          spacing, responsiveness, and quiet UI polish.
+        </p>
+        <div class="stats">
+          <div><h3>79%</h3><p>B.Sc AI/ML</p></div>
+          <div><h3>5 mo</h3><p>Internship</p></div>
+          <div><h3>04+</h3><p>Projects</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section section-dark">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="kicker">02 — Selected Work</p>
+          <h2 class="title">Things I've <em>built.</em></h2>
+        </div>
+        <p class="sub">A mix of client, intern and personal projects across web and data.</p>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <div class="project-top"><span class="pnum">01</span><span class="view">VIEW →</span></div>
+          <h3>Full-Stack CRUD Application</h3>
+          <p>Role-based user management with secure auth, admin access control and DataTables with PDF/Excel export.</p>
+          <div class="tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>AJAX</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="pnum">02</span><span class="view">VIEW →</span></div>
+          <h3>Designer Boutique</h3>
+          <p>Responsive boutique storefront showcasing fashion accessories with a clean, visually-led interface.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="pnum">03</span><span class="view">VIEW →</span></div>
+          <h3>Coffeeshop Website</h3>
+          <p>Reusable utility classes and responsive grid systems for a seamless experience across every device.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="pnum">04</span><span class="view">VIEW →</span></div>
+          <h3>IPL Cricket Data Analytics</h3>
+          <p>Player and team performance analysis with bar, line and pie visualizations exported to CSV reports.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="kicker">03 — Toolkit</p>
+      <h2 class="title">What I <em>work with.</em></h2>
+      <div class="skills">
+        <div class="skill-row"><p class="sg">Languages</p><div><span>Python</span><span>JavaScript</span></div></div>
+        <div class="skill-row"><p class="sg">Web</p><div><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>WordPress</span></div></div>
+        <div class="skill-row"><p class="sg">Database</p><div><span>MySQL</span></div></div>
+        <div class="skill-row"><p class="sg">Tools</p><div><span>Git / GitHub</span><span>VS Code</span><span>XAMPP</span><span>InfinityFree</span></div></div>
+        <div class="skill-row"><p class="sg">Coursework</p><div><span>Data Structures</span><span>OOP</span><span>Machine Learning</span><span>AI</span><span>IoT</span><span>Neural Networks</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDU -->
+  <section class="section section-tint">
+    <div class="container two-col">
+      <div>
+        <p class="kicker">04 — Experience</p>
+        <h3 class="sub-title">Migutham Technologies</h3>
+        <p class="muted">Web Developer Intern · Coimbatore · Jun 2025 – Nov 2025</p>
+        <ul class="bullets">
+          <li>Built responsive pages with HTML5, CSS3 and Bootstrap.</li>
+          <li>Assisted on PHP + MySQL websites with basic CRUD operations.</li>
+          <li>Customized WordPress themes, fixed UI bugs, improved responsiveness.</li>
+          <li>Collaborated with the dev team and followed coding standards.</li>
+        </ul>
+      </div>
+      <div>
+        <p class="kicker">05 — Education</p>
+        <div class="edu">
+          <h3 class="sub-title">B.Sc — AI &amp; Machine Learning</h3>
+          <p class="muted">Adithya College of Arts and Science, 2025</p>
+          <p class="accent">Score: 79%</p>
+        </div>
+        <div class="edu">
+          <h3 class="sub-title">Higher Secondary</h3>
+          <p class="muted">S.B.K. Girls Higher Secondary School, 2022</p>
+          <p class="accent">Score: 66%</p>
+        </div>
+        <p class="kicker mt-lg">06 — Certifications</p>
+        <ul class="certs">
+          <li>Web App Development — Kalvi Higher Education &amp; Research</li>
+          <li>Machine Learning with Python — Beta Technologies</li>
+          <li>Full Stack Development (HTML, JS, MySQL) — Beta Technologies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="kicker">07 — Contact</p>
+      <h2 class="title-xl">Let's build something <em>worth shipping.</em></h2>
+
+      <!-- Contact Form -->
+      <form id="contactForm" class="contact-form" novalidate>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <span class="error-msg" id="nameError"></span>
+      
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+        <span class="error-msg" id="emailError"></span>
+      
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What is this about?">
+        <span class="error-msg" id="subjectError"></span>
+      
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+        <span class="error-msg" id="messageError"></span>
+      
+        <button type="submit" class="btn submit-btn">
+          Send Message →
+        </button>
+      
+        <p class="form-status" id="formStatus"></p>
+      
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <p>© 2026 Ramaneshwari Ramar — Designed &amp; built with care.</p>
+      <p>Coimbatore, India</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

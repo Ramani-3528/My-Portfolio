@@ -160,7 +160,7 @@ footer,
 
 /* HERO */
 .hero {
-  padding: 160px 0 100px;
+  padding: 90px 0px;
 }
 .status {
   display: inline-flex;
@@ -170,7 +170,7 @@ footer,
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .dot {
   width: 8px;
@@ -202,16 +202,17 @@ footer,
 }
 
 .hero-bottom {
-  margin-top: 60px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 50px;
   align-items: end;
 }
 .hero-lead {
-  font-size: 1.15rem;
+  font-size: 20px;
   color: var(--muted);
   max-width: 560px;
+  text-align: justify;
 }
 
 /* MARQUEE */
@@ -277,7 +278,7 @@ footer,
 .title-xl,
 h3 {
   font-family: "Fraunces", serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 800;
   margin-top: 24px;
   line-height: 0.95;
@@ -303,8 +304,9 @@ h3{
   gap: 60px;
 }
 .about-text p {
-  font-size: 1.15rem;
+  font-size: 20px;
   color: var(--muted);
+  text-align: justify;
 }
 .stats {
   margin-top: 40px;

@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +18,13 @@
   --muted: rgba(244, 238, 252, 0.65);
   --line: rgba(244, 238, 252, 0.12);
   --grad-1: linear-gradient(135deg, #ff4ecd 0%, #7d3cff 50%, #00d4ff 100%);
-  --grad-2: linear-gradient(135deg, #ffb347 0%, #ff4ecd 100%);
+  --grad-2: linear-gradient(135deg, #edce53 0%, #f858ca 100%);
   --grad-3: linear-gradient(135deg, #00d4ff 0%, #7d3cff 100%);
   --glass: rgba(255, 255, 255, 0.04);
 }
 
 body {
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "Merienda", serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.7;
@@ -106,7 +112,7 @@ footer,
   height: 70px;
 }
 .logo {
-  font-family: "Fraunces", serif;
+  font-family: "Merienda", serif;
   font-size: 22px;
   font-weight: 600;
   color: var(--text);
@@ -187,7 +193,7 @@ footer,
 }
 
 .hero-title {
-  font-family: "Fraunces", serif;
+  font-family: "Merienda", serif;
   font-size: clamp(3.5rem, 11vw, 9.5rem);
   font-weight: 500;
   line-height: 0.9;
@@ -209,6 +215,7 @@ footer,
   align-items: end;
 }
 .hero-lead {
+  font-family: "Nunito Sans", serif;
   font-size: 20px;
   color: var(--muted);
   max-width: 560px;
@@ -229,7 +236,6 @@ footer,
   gap: 50px;
   white-space: nowrap;
   animation: scroll 30s linear infinite;
-  font-family: "Fraunces", serif;
   font-size: 1.5rem;
 }
 .marquee-track span {
@@ -277,7 +283,7 @@ footer,
 .title,
 .title-xl,
 h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Roboto Condensed", serif;
   font-size: 5rem;
   font-weight: 800;
   margin-top: 24px;
@@ -290,7 +296,7 @@ h3{
 }
 .title em,
 .title-xl em {
-  font-style: italic;
+  font-family: "Roboto Condensed", serif;
   background: var(--grad-2);
   -webkit-background-clip: text;
   background-clip: text;
@@ -304,6 +310,7 @@ h3{
   gap: 60px;
 }
 .about-text p {
+  font-family: "Nunito Sans", serif;
   font-size: 20px;
   color: var(--muted);
   text-align: justify;
@@ -322,7 +329,7 @@ h3{
   backdrop-filter: blur(10px);
 }
 .stats h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 2.5rem;
   font-weight: 500;
   background: var(--grad-1);
@@ -346,6 +353,7 @@ h3{
   margin-bottom: 60px;
 }
 .sub {
+  font-family: "Nunito Sans", serif;
   color: var(--muted);
   max-width: 280px;
   font-size: 14px;
@@ -386,7 +394,7 @@ h3{
   margin-bottom: 24px;
 }
 .pnum {
-  font-family: "Fraunces", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 1.2rem;
   background: var(--grad-1);
   -webkit-background-clip: text;
@@ -399,13 +407,14 @@ h3{
   color: var(--muted);
 }
 .project h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Merienda", serif;
   font-weight: 500;
   font-size: 1.7rem;
   margin-bottom: 14px;
   letter-spacing: -0.01em;
 }
 .project p {
+  font-family: "Nunito Sans", serif;
   color: var(--muted);
   margin-bottom: 22px;
 }
@@ -436,7 +445,7 @@ h3{
   border-bottom: 1px solid var(--line);
 }
 .sg {
-  font-family: "Fraunces", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 1.5rem;
 }
 .skill-row > div {
@@ -541,7 +550,7 @@ h3{
   border-color: rgba(255, 78, 205, 0.4);
 }
 .contact-card .big {
-  font-family: "Fraunces", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 1.4rem;
   margin-top: 10px;
 }

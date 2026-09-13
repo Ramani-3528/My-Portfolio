@@ -192,12 +192,12 @@ footer,
   }
 }
 
-.hero-title {
+h1 {
   font-family: "Merienda", serif;
-  font-size: clamp(3.5rem, 11vw, 9.5rem);
+  font-size: 6rem;
   font-weight: 500;
   line-height: 0.9;
-  letter-spacing: -0.04em;
+  letter-spacing: 2px;
 }
 .hero-title em {
   font-style: italic;
